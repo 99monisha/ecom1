@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My e-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="section1">
+    <div class="part1">
+    <div class="navi">
+        <div class="main-logo">DIAMOND </div>
+        <nav>
+        <ul id="menuitems">
+            <li><a href="#home" class="menu-btn">Shop</a></li>
+            <li><a href="#about"class="menu-btn">Categori</a></li>
+            <li><a href="#services"class="menu-btn">Sale</a></li>
+            <li><a href="#skils"class="menu-btn">Skills</a></li>
+            <li><a href="#teams"class="menu-btn">Team</a></li>
+            <li><a href="#contact"class="menu-btn">Contact</a></li>
+</ul>
+</nav>
+<img src="images/11.PNG" class="menu" onclick="menutoggle()">
+</div>
+<div class="row">
+    <div class="column">
+        <h1>This is the ebsite <br>also..</h1>
+        <p>Lorem ipsum dolor sit, 
+            amet consectetur adipisicing elit. Sapiente aut perferendis quo,<br> vel distinctio 
+             recusandae expedita?</p>
+             <a href=""class="btn">Bye Now!&#8594;</a>
+    </div>
+    <div class="column">
+        <img src="images/2.png">
+    </div>
+</div>
+</div> 
+</div>
+           
+<!--footer-->
+<div class="footer">
+  <div class="sub-sec2">
+    <div class="row">
+      <div class="foot-column">
+<h3>Lorem ipsum dolor sit.</h3>
+<p>Lorem ipsum dolor sit amet copsam explicabo!</p>
+<div class="logo-1">
+  <img src="images/5.jpg">
+  <img src="images/5.jpg">
+</div>
+      </div>
+      <div class="foot-column1">
+        <img src="images/3f.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. 
+          Esse quas porro seq</p>
+        </div>
+        <div class="foot-column2">
+          <h3>Lorem ipsum </h3>
+    <ul>
+      <li>Join</li>
+      <li>Return Policy</li>
+      <li>Home</li>
+      <li>Accounts</li>
+      <li>Cupon</li>
+    </ul>
+                </div>
+                <div class="foot-column3">
+                  <h3>Lorem ipsum </h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Phone</li>
+              <li>Whatsapp</li>
+              <li>Youtube</li>
+            </ul>
+                        </div>
+    </div>
+  </div>
+  <hr><p class="copy">Copyright@monisha</p>
+</div>
+<script>
+  var menuitems = document.getElementById("menuitems");
+  menuitems.style.maxHeight = "0px"
+  function menutoggle(){
+    if(menuitems.style.maxHeight =="0px")
+    {
+      menuitems.style.maxHeight = "200px";
+    }
+    else{
+      menuitems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+</html>
